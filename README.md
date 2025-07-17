@@ -14,53 +14,6 @@ This template helps you:
 
 ---
 
-## 📁 Project Structure
-
-```
-
-my-project/
-├── README.md
-├── index.md                  # GitHub Pages homepage (Jekyll)
-├── index.html                # Optional custom HTML homepage
-├── \_config.yml               # GitHub Pages / Jekyll config
-├── assets/                   # Static web assets (CSS, JS, images)
-│   ├── css/
-│   ├── js/
-│   └── images/
-│
-├── data/
-│   ├── raw/                  # Original, unmodified data
-│   ├── interim/              # Cleaned, intermediate data
-│   └── processed/            # Final datasets for modeling or viz
-│
-├── notebooks/                # Jupyter notebooks
-│   ├── 01\_fetch.ipynb
-│   ├── 02\_clean.ipynb
-│   ├── 03\_eda.ipynb
-│   ├── 04\_modeling.ipynb
-│   └── 05\_viz.ipynb
-│
-├── src/                      # Python scripts for each pipeline stage
-│   ├── fetch/                # Data scraping or API ingestion
-│   ├── prep/                 # Cleaning and preprocessing
-│   ├── eda/                  # EDA helper functions
-│   ├── features/             # Feature engineering
-│   ├── models/               # Model training, evaluation
-│   └── viz/                  # Reusable visualizations
-│
-├── reports/                  # Results and public outputs
-│   ├── figures/              # Charts and plots
-│   ├── dashboards/           # Optional HTML dashboards
-│   └── summary.md            # Project summary (used in Jekyll site)
-│
-├── database/                 # SQLite, DuckDB, or Parquet files
-├── environment.yml           # Conda environment file
-└── Makefile or run.py        # Automate fetch → clean → model
-
-````
-
----
-
 ## 🔄 Workflow Overview
 
 1. **Data Collection**
